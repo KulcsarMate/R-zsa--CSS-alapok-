@@ -1,0 +1,48 @@
+img {
+    width: 15em;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-color: indianred;
+    color: indigo;
+}
+div {
+    width: 80%;
+    background-color: lightcyan;
+    padding: 10px 30px;
+    margin: auto;
+}
+h2 {
+    border-left: 5px solid black;
+    padding-left: 5px;
+    font-variant: small-caps;
+}
+p {
+    text-align: justify;
+}
+.erdekesseg {
+    font-style: italic;
+    font-family: "ComicSansMS" cursive;
+    border: 2px dashed indianred;
+    padding: 8px;
+}
+#bevezeto span {
+    text-transform: uppercase;
+}
+#bevezeto, #jellemzok {
+    font-weight: bold;
+}
+a {
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    font-size: 120%;
+    padding: 5px 10px;
+    display: inline-block; 
+    /* width: calc(50% - 22px); */
+    box-sizing: border-box;
+    width: calc(50% - 2px);
+    /* Az 50% sok, azért mert space-el el vannak választva a linkek. */
+}
